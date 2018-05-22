@@ -6,12 +6,8 @@ using System.Threading.Tasks;
 
 namespace COMP123_S2017_Lesson8B_Revise
 {
-    class Program
+    class Person
     {
-        static void Main(string[] args)
-        {
-            //helps drive rest of the code
-
-        }
+        
     }
 }
