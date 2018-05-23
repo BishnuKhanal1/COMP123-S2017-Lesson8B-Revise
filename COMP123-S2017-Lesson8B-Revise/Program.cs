@@ -11,7 +11,10 @@ namespace COMP123_S2017_Lesson8B_Revise
         static void Main(string[] args)
         {
             //helps drive rest of the code
-
+            Person person = new Person("Bishnu", 20);
+            Console.WriteLine("++++++++++++++++++++++++++++++");
+            person.Talks();
+            Console.WriteLine("++++++++++++++++++++++++++++++");
         }
     }
 }
