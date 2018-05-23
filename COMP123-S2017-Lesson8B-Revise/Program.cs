@@ -15,6 +15,12 @@ namespace COMP123_S2017_Lesson8B_Revise
             Console.WriteLine("++++++++++++++++++++++++++++++");
             person.Talks();
             Console.WriteLine("++++++++++++++++++++++++++++++");
+            Console.WriteLine("\n");
+            Student student = new Student("Bobo", 25, "123456789A");
+            student.Studies();
+            student.Talks();
+            Console.WriteLine("\n");
+            Console.WriteLine("++++++++++++++++++++++++++++++");
         }
     }
 }
